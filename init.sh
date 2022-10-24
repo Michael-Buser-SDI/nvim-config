@@ -5,4 +5,5 @@ sudo mv squashfs-root /
 sudo ln -s /squashfs-root/AppRun /usr/bin/nvim
 rm nvim.appimage
 brew install ripgrep
-git clone https://github.com/AstroNvim/AstroNvim ~/.config/nvim\nnvim +PackerSync
+git clone https://github.com/AstroNvim/AstroNvim ~/.config/nvim
+nvim +PackerSync
