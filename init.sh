@@ -18,6 +18,7 @@ brew install ripgrep
 git clone https://github.com/AstroNvim/AstroNvim ~/.config/nvim
 
 if [[ "$OSTYPE" == "darwin"* ]]; then
+echo "darwin system"
 else
 mkdir ~/.config/nvim/lua/user
 curl -s -o init.lua https://raw.githubusercontent.com/Michael-Buser-SDI/nvim-config/main/init.lua
