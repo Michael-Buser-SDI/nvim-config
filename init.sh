@@ -20,7 +20,7 @@ git clone https://github.com/AstroNvim/AstroNvim ~/.config/nvim
 if [[ "$OSTYPE" == "darwin"* ]]; then
 else
 mkdir ~/.config/nvim/lua/user
-curl -s https://raw.githubusercontent.com/Michael-Buser-SDI/nvim-config/main/init.lua
+curl -s -o init.lua https://raw.githubusercontent.com/Michael-Buser-SDI/nvim-config/main/init.lua
 mv init.lua ~/.config/nvim/lua/user
 fi
 
