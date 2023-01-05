@@ -205,7 +205,7 @@ local config = {
       ["<leader>bj"] = { "<cmd>BufferLinePick<cr>", desc = "Pick to jump" },
       ["<leader>bt"] = { "<cmd>BufferLineSortByTabs<cr>", desc = "Sort by tabs" },
       ["<leader>fC"] = { function() require("telescope.builtin").grepstring() end, desc = "Search for word under cursor" },
-      ["<leader>fc"] = { function() require("telescope.builtin").current_buffer_fuzzyfind() end, desc = "Search current buffer" },
+      ["<leader>fc"] = { function() require("telescope.builtin").current_buffer_fuzzy_find() end, desc = "Search current buffer" },
       -- quick save
       -- ["<C-s>"] = { ":w!<cr>", desc = "Save File" },  -- change description but the same command
     },
